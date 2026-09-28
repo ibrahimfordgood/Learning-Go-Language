@@ -6,5 +6,5 @@ import (
 )
 
 func main() {
-	fmt.Println("Ibrahim was born in -", time.Now().Format("2006-01-02"))
+	fmt.Println("Hello, my name is Ibrahim and the time is -", time.Now().Format("Jan 2 15:04:05 2006"))
 }
